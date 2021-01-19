@@ -4,13 +4,13 @@ namespace App\Http\Controllers;
 
 
 use Illuminate\Http\Request;
-use App\Models\User;
-use App\Models\Alumne;
-use App\Models\Study;
-use App\Models\Offer;
-use App\Models\Admin;
+use App\User;
+use App\Alumne;
+use App\Study;
+use App\Offer;
+use App\Admin;
 use Illuminate\Support\Facades\Auth;
-use App\Models\Other_study;
+use App\Other_study;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\WelcomeMail;

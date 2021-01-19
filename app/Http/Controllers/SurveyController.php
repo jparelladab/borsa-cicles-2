@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use App\Models\Survey_alumne;
-use App\Models\Survey_empresa;
-use App\Models\Admin;
+use App\Survey_alumne;
+use App\Survey_empresa;
+use App\Admin;
 use Illuminate\Support\Facades\Input;
 
 class SurveyController extends Controller
@@ -30,7 +30,7 @@ class SurveyController extends Controller
         $customMessages = [
             'required' => 'Camp obligatori',
             'max:1024' => 'L\'extensió màxima és de 1024 caràcters',
-        ];    
+        ];
         $data = $this->validate($request, $rules, $customMessages);
 
         $survey = Survey_alumne::create($data);
@@ -66,7 +66,7 @@ class SurveyController extends Controller
             'Q5_No_text' => 'max:1024',
             'Q6' => 'max:1024',
         ];
-        
+
         $customMessages = [
             'required' => 'Camp obligatori',
             'max' => 'L\'extensió màxima és de 1024 caràcters',
@@ -74,7 +74,7 @@ class SurveyController extends Controller
             'max' => 'Siusplau, puntueu de l\'1 al 4',
 
         ];
-      
+
         $data = $this->validate($request, $rules, $customMessages);
 
         $survey = Survey_empresa::create($data);

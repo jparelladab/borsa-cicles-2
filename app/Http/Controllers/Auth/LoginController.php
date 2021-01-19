@@ -42,7 +42,7 @@ class LoginController extends Controller
         $this->middleware('guest')->except('logout');
     }
 
-    ublic function redirectTo() {
+    public function redirectTo() {
         $user = Auth::user();
         if ($user->is_verified){
         //redirect to dashboard according to their role_id
@@ -57,15 +57,15 @@ class LoginController extends Controller
             }
         } else {
         // if user has not been verified redirect back with warning asking to verify
-            Session::flash('message', 'El teu compte no ha estat validat. Revisa el teu correu.'); 
-            Session::flash('alert-class', 'alert-warning'); 
+            Session::flash('message', 'El teu compte no ha estat validat. Revisa el teu correu.');
+            Session::flash('alert-class', 'alert-warning');
             if ($user->role_id === 2){
                 return route('auth.alumnes');
             } elseif ($user->role_id === 3){
                 return route('auth.empreses');
             }
         }
-        
+
 
       }
 }

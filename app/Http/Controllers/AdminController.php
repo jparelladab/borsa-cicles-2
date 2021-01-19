@@ -3,11 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\User;
-use App\Models\Admin;
-use App\Models\Alumne;
-use App\Models\Empresa;
-use App\Models\Offer;
+use App\User;
+use App\Admin;
+use App\Alumne;
+use App\Empresa;
+use App\Offer;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Session;
 
