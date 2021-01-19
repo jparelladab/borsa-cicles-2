@@ -1,0 +1,99 @@
+  
+  
+  .table-alumnes {
+    border: 1px solid $green-cicles;
+
+    .table-header {
+      font-family:GraphikSemibold;
+      font-size:14px;
+      border-bottom: 1px solid $green-cicles !important;
+    }
+    .table-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr 40px;
+      column-gap: 20px;
+      border-bottom: 1px solid $gainsboro;
+      .empresa {
+        font-family: GraphikLight;
+      }
+      .lloc {
+        font-family: GraphikLight;
+
+      }
+    }:last-child {
+      border-bottom: none;
+    }
+    .green-arrow {
+      width:20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .table-empreses {
+    border: 1px solid $green-cicles;
+
+    .table-header {
+      font-family:GraphikSemibold;
+      font-size:14px;
+      border-bottom: 1px solid $green-cicles !important;
+    }
+    .table-row {
+      display: grid;
+      grid-template-columns: 1fr 40px;
+      column-gap: 20px;
+      border-bottom: 1px solid $gainsboro;
+      .empresa {
+        font-family: GraphikLight;
+      }
+      .lloc {
+        font-family: GraphikLight;
+
+      }
+    }:last-child {
+      border-bottom: none;
+    }
+    .green-arrow {
+      width:20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .table-candidats-admin {
+    border: 1px solid $green-cicles;
+
+    .table-header {
+      font-family:GraphikSemibold;
+      font-size:14px;
+      border-bottom: 1px solid $green-cicles !important;
+    }
+    .table-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr 40px;
+      column-gap: 20px;
+      border-bottom: 1px solid $gainsboro;
+      .empresa {
+        font-family: GraphikLight;
+      }
+      .lloc {
+        font-family: GraphikLight;
+
+      }
+    }:last-child {
+      border-bottom: none;
+    }
+    .green-arrow {
+      width:20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+
+  .empresa-description {
+      width:50%;
+  }

@@ -1,0 +1,67 @@
+#homepage {
+  .main-right {
+    .text-1 {
+      font-family: GraphikSemibold;
+    }
+    .text-2 {}
+  }
+
+  .two-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap:20px;
+    a {
+      text-decoration: none;
+    .card-home {
+      height:320px;
+      .card-body {
+        img {
+          width:75px;
+          margin:20px 0;
+        }
+        .card-title {
+          font-weight: bold;
+          margin-bottom:15px;
+          font-family: GraphikSemibold;
+          text-decoration: none;
+        }
+        .card-text {
+          font-family:GraphikRegular;
+        }
+      }
+      .card-footer {
+        color: #FFFFFF;
+      }
+    }
+    }
+  }
+ 
+}
+
+ .table-ofertes {
+    border: 1px solid $green-cicles;
+    .title {
+      color: $green-cicles;
+    }
+    .table-header {
+      font-family:GraphikSemibold;
+      font-size:14px;
+      border-bottom: 1px solid $green-cicles !important;
+    }
+    .table-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 20px;
+      border-bottom: 1px solid $gainsboro;
+      .empresa {
+        font-family: GraphikLight;
+      }
+      .lloc {
+        font-family: GraphikLight;
+
+      }
+    }:last-child {
+      border-bottom: none;
+    }
+  }
+

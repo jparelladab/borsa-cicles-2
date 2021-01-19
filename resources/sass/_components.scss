@@ -1,0 +1,304 @@
+label {
+  margin-bottom:0;
+  margin-left: 7px;
+}
+
+form {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hover-green:hover {
+  color: $green-cicles;
+}
+.hover-black:hover {
+  color: $black;
+}
+
+legend {
+  font-size: revert;
+}
+
+.mg-0 {
+  margin: 0;
+}
+
+.bg-white {
+  background-color:#FFFFFF;
+  color: #000000;
+}
+
+.bg-green {
+  background-color:$green-cicles;
+  color: #FFFFFF;
+}
+
+.bg-black {
+  background-color:#000000;
+  color: #FFFFFF;
+}
+
+.bg-gray {
+  background-color:$gray;
+  color: #FFFFFF;
+}
+
+.graphik-black {
+  font-family: GraphikRegular;
+  color: #000000;
+}
+.graphik-light-black {
+  font-family: GraphikLight;
+  color: #000000;
+}
+.graphik-bold-green {
+  font-family: GraphikSemibold;
+  color: $green-cicles;
+}
+
+.graphik-bold-black {
+  font-family: GraphikSemibold;
+  color: #000000;
+}
+
+.btn-green {
+  background-color: $green-cicles;
+  color: white;
+  text-align: center;
+  font-family: GraphikSemibold;
+  font-size: 14px;
+  padding: 7px 10px;
+  border: none;
+}
+.btn-black {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: GraphikSemibold;
+  font-size: 14px;
+  padding: 7px 10px;
+  border: none;
+}
+
+.width-fit {
+  width:fit-content;
+}
+
+.width-100 {
+  width:100%;
+}
+.width-45 {
+  width:45%;
+}
+
+.full-height {
+  height:100%;
+}
+
+.text-sm {
+  font-size: 12px;
+}
+
+.text-14 {
+  font-size: 14px;
+}
+
+.text-md {
+  font-size: 16px;
+}
+
+.text-l {
+  font-size: 20px;
+}
+
+.small-text-input {
+  width: 30px;
+  text-align: center;
+}
+
+ol,ul,p {
+  margin: 0;
+  padding:0;
+   // list-style-position: inside;
+}
+
+
+.page-title {
+  color: $green-cicles;
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-family: PlayFairDisplay;
+}
+
+.title-playfair {
+      font-family: PlayfairDisplay;
+      font-size: 30px;
+  }
+
+  img.doc-cv {
+    width:20px;
+  }
+  .contact-row {
+    display: flex;
+    align-items: center;
+    img {
+      width:10px;
+      margin-right:10px;
+    }
+  }
+
+
+
+
+////General Layout
+.breadcrumbs {
+  font-size:12px;
+  font-family:GraphikLight;
+}
+
+a.back {
+  color:black;
+  text-decoration-color: black;
+}
+
+.back {
+  font-size: 12px;
+  font-family:GraphikLight;
+  color:black;
+}
+
+.main-layout {
+  display:grid;
+  grid-template-columns:30% 60%;
+  column-gap: 10%;
+  .main-left {
+    a {
+      color: black;
+    }
+    .main-left-text {
+      font-size: 28px;
+      font-family: PlayFairDisplay;
+    }
+
+  }
+  .main-right {
+    font-family:GraphikLight;
+
+  }
+}
+
+
+/////////////FORMS
+.form-input {
+  border: 1px solid #ced4da;
+  font-size: 14px;
+  padding-left: 17px;
+}
+
+#add-study {
+  background-color: lightgray;
+  font-family: 'GraphikSemibold';
+  border: none;
+  padding: 7px 10px;
+  font-size: 13px;
+}
+
+// .file-input {
+//   background-color: white;
+//   color: black;
+//   border: 1px solid black;
+//   border-radius: 3px;
+//   font-family: GraphikSemibold;
+//   font-size: 12px;
+//   text-align: center;
+//   padding: 5px 20px;
+// }
+
+
+///////////////OFERTA
+.offer-container {
+  width: 66%;
+  .page-title-small {
+    font-size:30px;
+    font-family: PlayFairDisplay;
+    // font-weight: bold;
+    color: black;
+  }
+  .name {
+    font-size:18px;
+  }
+  .description {
+    font-family:GraphikLight;
+  }
+  .position {
+    .title {
+      color:$green-cicles;
+    }
+    .position-name {
+
+    }
+  }
+  .offer-btn {
+    padding:10px 20px;
+    width: fit-content;
+    font-family: GraphikSemibold;
+    border: none;
+  }
+  .social-icons {
+    img {
+      margin-right:10px;
+      height: 15px;
+    }
+  }
+}
+
+/////////CANDIDATE
+.candidate-name-cv {
+  width:50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+////////////////////ENQUESTA
+
+.enquesta-container {
+  background-color: $green-cicles;
+  color: white;
+  display: grid;
+  grid-template-columns: 75% 25%;
+  font-family: GraphikSemibold;
+  padding:20px;
+  .text-button{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+
+    .enquesta-text {
+    font-size: 30px;
+    line-height: 32px;
+    }
+    .enquesta-button {
+      background-color: white;
+      width: 160px;
+      padding: 10px;
+      text-align:center;
+      a {
+        font-size: 12px;
+        color: $green-cicles;
+        text-decoration: none;
+      }
+    }
+  }
+  .enquesta-icon {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    img {
+      width:100px;
+    }
+  }
+}

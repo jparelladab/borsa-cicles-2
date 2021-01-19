@@ -1,0 +1,21 @@
+
+  .form-acces-zona {
+
+    label {
+      margin-left:0;
+    }
+    .form-buttons {
+      display: flex;
+      justify-content: space-between;
+      .black-btn {
+        background-color: #000000;
+        color: #FFFFFF;
+        padding: 10px 0;
+        border: none;
+        width: 40%;
+        text-align: center;
+        font-family:GraphikSemibold;
+      }
+    }
+  }
+

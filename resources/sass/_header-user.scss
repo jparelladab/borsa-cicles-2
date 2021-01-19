@@ -1,0 +1,117 @@
+///////////ALUMNE
+
+.header-background {
+  background-color: #f8f8f8;
+  border-top: 1px solid $green-cicles;
+}
+.alumne-header {
+  display: grid;
+  grid-template-columns: auto auto 35%;
+  column-gap: 30px;
+  .avatar{
+    text-align:center;
+    img {
+      border-radius: 50%;
+      height: 150px;
+      width:150px;
+      object-fit: cover;
+    }
+  }
+
+    .alumne-info {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+      row-gap: 20px;
+      column-gap: 20px;
+    }
+    .name {
+      font-family: PlayFairDisplay;
+      font-size: 30px;
+      line-height:31px;
+      color: $green-cicles;
+      grid-column:1;
+    }
+    .header-study {
+      font-family: PlayFairDisplay;
+      color: black;
+      font-size: 20px;
+      margin-top:-5px;
+
+    }
+    .contact-data {
+      grid-column: 1;
+      grid-row: 2;
+        font-size: 16px;
+        .title {
+          font-family: GraphikSemibold;
+        }
+      
+    }
+    
+
+  .doc-cv {
+    grid-column:2;
+    grid-row: 2;
+    
+  }
+  .links {
+    display: flex;
+    justify-content: space-between;
+    a {
+      color: $green-cicles;
+      // margin-right: 20px;
+    }
+  }
+}
+
+.doc-cv img {
+      width:20px;
+    }
+  
+    
+
+
+/////EMPRESA
+
+.empresa-header {
+  display: grid;
+  grid-template-columns: 35% 1fr 35%;
+  justify-content: space-between;
+  .empresa-info {
+    text-align:left;
+    grid-column: 1;
+  }
+  .links {
+    display: flex;
+    justify-content: space-between;
+    grid-column: 3;
+  }
+  .name {
+    font-family: PlayFairDisplay;
+      font-size: 30px;
+      line-height:31px;
+      color: $green-cicles;
+      grid-column:1;
+  }
+  .description {
+    font-family: GraphikRegular;
+    font-size: 16px;
+    color: black;
+  }
+}
+
+/////////////ADMIN
+
+.admin-header {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: space-between;
+  .welcome {
+    text-align:left;
+  }
+  .links {
+    display: flex;
+    justify-content: space-between;
+  }
+}

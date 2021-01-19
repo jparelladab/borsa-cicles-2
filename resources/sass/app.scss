@@ -1,0 +1,59 @@
+// Fonts
+
+@font-face {
+  font-family: PlayFairDisplay;
+  src: url('/fonts/PlayfairDisplay-Regular.ttf');
+}
+@font-face {
+  font-family: GraphikLight;
+  src: url('/fonts/Graphik-Light.otf');
+}
+@font-face {
+  font-family: GraphikRegular;
+  src: url('/fonts/Graphik-Regular.otf');
+}
+@font-face {
+  font-family: GraphikSemibold;
+  src: url('/fonts/Graphik-Semibold.otf');
+}
+
+@font-face {
+  font-family: GraphikBold;
+  src: url('/fonts/Graphik-Bold.otf');
+}
+@font-face {
+  font-family: GilroyRegular;
+  src: url('/fonts/Gilroy-Regular.otf');
+}
+@font-face {
+  font-family: GilroyLight;
+  src: url('/fonts/Gilroy-Light.otf');
+}
+@font-face {
+  font-family: GilroyBold;
+  src: url('/fonts/Gilroy-Bold.otf');
+}
+@font-face {
+  font-family: MyriadProRegular;
+  src: url('/fonts/MyriadPro-Regular.otf');
+}
+
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Partials
+@import 'components';
+@import 'header';
+@import 'footer';
+
+// Pages
+@import 'home';
+@import 'home-alumne';
+@import 'acces-zona';
+@import 'dashboards';
+@import 'header-user';
+@import 'admin';

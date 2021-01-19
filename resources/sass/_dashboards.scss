@@ -1,0 +1,117 @@
+
+
+  .ofertes-container {
+
+    .ofertes-title {
+      font-family: PlayFairDisplay;
+      font-size: 25px;
+    }
+    .ofertes-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      // grid-auto-columns: 300px;
+      grid-gap: 20px;
+
+      .oferta {
+        border: 1px solid $gainsboro;
+        font-family: Graphik;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+
+        .company-name {
+          font-family: GraphikSemibold;
+          font-size: 20px;
+        }
+        .description {
+          font-size: 13px;
+          line-height:15px;
+          font-family: GraphikLight;
+        }
+        .position {
+          font-family: GraphikSemibold;
+          .title {
+            color: $green-cicles;
+            font-size: 13px;
+            line-height:15px;
+          }
+          .position-name {
+            font-size: 13px;
+            line-height:15px;
+          }
+        }
+        a {
+          text-decoration:none;
+          .offer-link {
+            padding: 5px 10px;
+            text-align:center;
+            font-family: GraphikSemibold;
+            width: fit-content;
+          }
+        }
+      }
+    }
+  }
+
+
+
+  //////////EMPRESES
+
+  .table-candidats {
+    border: 1px solid $green-cicles;
+
+    .table-header {
+      font-family:GraphikSemibold;
+      font-size:14px;
+      border-bottom: 1px solid $green-cicles !important;
+    }
+    .table-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 40px;
+      column-gap: 20px;
+      border-bottom: 1px solid $gainsboro;
+      .empresa {
+        font-family: GraphikLight;
+      }
+      .lloc {
+        font-family: GraphikLight;
+
+      }
+    }:last-child {
+      border-bottom: none;
+    }
+    .green-arrow {
+      width:20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .text-bloc {
+    p{
+      font-family: GraphikSemibold;
+    }
+      font-family: GraphikRegular;
+      font-size: 14px;
+  }
+
+
+
+  ///////ADMIN
+  .counter {
+    .circle {
+      border-radius: 50%;
+      height: 25px;
+      width: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size:12px;
+      font-family: GraphikSemibold;
+    }
+    .text {
+      font-size:12px;
+    }
+  }
