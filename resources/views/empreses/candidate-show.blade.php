@@ -13,17 +13,19 @@
             <div class="title graphik-bold-black mb-1 ml-2">Document CV</div>
         </div>
     </div>
-    
+
     <div class="graphik-bold-black">Estudis</div>
-    <div>{{ $candidate->study()->title }}</div>
+    @foreach($candidate->studies as $study)
+      <p>{{ $study->title }}</p>
+    @endforeach
      <div class="graphik-bold-black mt-3 mb-1">Dades contacte</div>
     <div class="description">{{ $candidate->user()->email }}</div>
     <div class="description">{{ $candidate->phone_number }}</div>
     <div class="description">{{ $candidate->address }}</div>
     <div class="graphik-bold-black mt-3 mb-1">Idiomes</div>
     <div class="description mb-4">{{ $candidate->idiomes }}</div>
-     
-   
+
+
   </div>
   </div>
 @endsection
